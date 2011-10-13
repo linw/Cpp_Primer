@@ -1,0 +1,6 @@
+# ignore files like *.exe
+*.exe
+# ignore files like *.o or *.a
+*.[oa]
+# ignore files like *.swp
+*.swp
