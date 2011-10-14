@@ -1,0 +1,9 @@
+Exception: STATUS_ACCESS_VIOLATION at eip=0040125B
+eax=00025C15 ebx=6124456E ecx=005002A8 edx=00445448 esi=61244577 edi=00000000
+ebp=0022CD68 esp=0022CCB0 program=D:\workplace\Cpp_Primer\chaper6\test.exe, pid 1040, thread main
+cs=001B ds=0023 es=0023 fs=003B gs=0000 ss=0023
+Stack trace:
+Frame     Function  Args
+0022CD68  0040125B  (00000001, 6124386C, 005000F8, 61004BB9)
+0022CD98  61007038  (00000000, 0022CDD4, 61006980, 7FFD9000)
+End of stack trace

@@ -17,13 +17,14 @@ int main()
 {
 
     int *p = (int*)154645;
-    assert(false);
+    assert(true);
+    cout<<"pass through the assert()"<<endl;
+    assert(cin);
 
     try{
         cout<<*p<<endl;
     }catch(exception err){
         cout<<err.what()<<endl;
     }
-
     return 0;
 }
