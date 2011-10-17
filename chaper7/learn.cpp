@@ -17,7 +17,7 @@ int fun75(int a, int *p){
 
 void fun76(int &a, int &b){
     a = a^b;
-    b = a^b; 
+    b = a^b;
     a = a^b;
 }
 
@@ -39,8 +39,16 @@ int main()
     cout<<a<<b<<endl;
     int *p = &a;
     test(p);
-    int king[9];
+    int king[10] = {1,2,3,4,5,6,7,8,9,0};
     test1(king);
+    
+    int (*matrix)[10];
+    matrix = &king;
+    for(int i = 0; i < 10; i++){
+        cout<<(*matrix)[i]<<endl;
+        cout<<matrix[i]<<endl;
+    }
+
 
     return 0;
 }
