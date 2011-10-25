@@ -129,6 +129,7 @@ test1(king);
     int a = 10;
     king(4.5);
     funp pf1 = 0;
+    
     funp pf2 = king;
     pf2(0);
     printf("%p",pf2);
